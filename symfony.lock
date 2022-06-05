@@ -1,4 +1,10 @@
 {
+    "acseo/typesense-bundle": {
+        "version": "dev-master"
+    },
+    "clue/stream-filter": {
+        "version": "v1.6.0"
+    },
     "doctrine/annotations": {
         "version": "1.13",
         "recipe": {
@@ -95,11 +101,44 @@
     "nikic/php-parser": {
         "version": "v4.14.0"
     },
+    "nyholm/psr7": {
+        "version": "1.5",
+        "recipe": {
+            "repo": "github.com/symfony/recipes",
+            "branch": "main",
+            "version": "1.0",
+            "ref": "0cd4d2d0e7f646fda75f9944f747a56e6ed13d4c"
+        },
+        "files": [
+            "config/packages/nyholm_psr7.yaml"
+        ]
+    },
     "phar-io/manifest": {
         "version": "2.0.3"
     },
     "phar-io/version": {
         "version": "3.2.1"
+    },
+    "php-http/client-common": {
+        "version": "2.5.0"
+    },
+    "php-http/curl-client": {
+        "version": "2.2.1"
+    },
+    "php-http/discovery": {
+        "version": "1.14.2"
+    },
+    "php-http/httplug": {
+        "version": "2.3.0"
+    },
+    "php-http/message": {
+        "version": "1.13.0"
+    },
+    "php-http/message-factory": {
+        "version": "v1.0.2"
+    },
+    "php-http/promise": {
+        "version": "1.1.0"
     },
     "phpdocumentor/reflection-common": {
         "version": "2.2.0"
@@ -153,6 +192,15 @@
     },
     "psr/event-dispatcher": {
         "version": "1.0.0"
+    },
+    "psr/http-client": {
+        "version": "1.0.1"
+    },
+    "psr/http-factory": {
+        "version": "1.0.1"
+    },
+    "psr/http-message": {
+        "version": "1.0.1"
     },
     "psr/link": {
         "version": "2.0.1"
@@ -261,9 +309,6 @@
         "files": [
             "config/packages/debug.yaml"
         ]
-    },
-    "symfony/debug-pack": {
-        "version": "v1.0.10"
     },
     "symfony/dependency-injection": {
         "version": "v6.1.0"
@@ -416,9 +461,6 @@
     "symfony/options-resolver": {
         "version": "v6.1.0"
     },
-    "symfony/orm-pack": {
-        "version": "v2.2.0"
-    },
     "symfony/password-hasher": {
         "version": "v6.1.0"
     },
@@ -454,9 +496,6 @@
     },
     "symfony/process": {
         "version": "v6.1.0"
-    },
-    "symfony/profiler-pack": {
-        "version": "v1.0.6"
     },
     "symfony/property-access": {
         "version": "v6.1.0"
@@ -507,9 +546,6 @@
     "symfony/serializer": {
         "version": "v6.1.0"
     },
-    "symfony/serializer-pack": {
-        "version": "v1.1.0"
-    },
     "symfony/service-contracts": {
         "version": "v3.1.0"
     },
@@ -518,9 +554,6 @@
     },
     "symfony/string": {
         "version": "v6.1.0"
-    },
-    "symfony/test-pack": {
-        "version": "1.0.10"
     },
     "symfony/translation": {
         "version": "6.1",
@@ -553,9 +586,6 @@
             "config/packages/twig.yaml",
             "templates/base.html.twig"
         ]
-    },
-    "symfony/twig-pack": {
-        "version": "v1.0.1"
     },
     "symfony/validator": {
         "version": "6.1",
@@ -591,9 +621,6 @@
             "config/routes/web_profiler.yaml"
         ]
     },
-    "symfony/webapp-pack": {
-        "version": "v1.1.0"
-    },
     "symfony/webpack-encore-bundle": {
         "version": "1.14",
         "recipe": {
@@ -624,6 +651,9 @@
     },
     "twig/twig": {
         "version": "v3.4.1"
+    },
+    "typesense/typesense-php": {
+        "version": "v4.8.0"
     },
     "webmozart/assert": {
         "version": "1.11.0"
